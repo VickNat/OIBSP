@@ -1,10 +1,14 @@
 import React from 'react'
-import PizzaVarieties from '../components/PizzaVarieties'
+import LandingSection from '../components/LandingSection'
+import PizzaVarietySection from '../components/PizzaVarietySection'
+import ServicesSection from '../components/ServicesSection'
 
 const UserDashboard = () => {
   return (
-    <div className='h-screen'>
-      <PizzaVarieties />
+    <div className='flex flex-col gap-y-12 md:gap-y-20'>
+      <LandingSection />
+      <PizzaVarietySection />
+      <ServicesSection />
     </div>
   )
 }

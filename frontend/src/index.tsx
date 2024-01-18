@@ -8,8 +8,9 @@ import './index.css';
 import Splash from './routes/Splash';
 import SignUp from './routes/SignUp';
 import SignIn from './routes/SignIn';
-import Header from './routes/Header';
+import Header from './routes/Layout';
 import UserDashboard from './routes/UserDashboard';
+import CreateCustomePizza from './routes/CreateCustomePizza';
 
 const router = createBrowserRouter([
   {
@@ -31,7 +32,11 @@ const router = createBrowserRouter([
       {
         path: "userDashboard",
         element: <UserDashboard />
-      }
+      },
+      {
+        path: "customPizza",
+        element: <CreateCustomePizza />
+      },
     ]
   }
 ]);

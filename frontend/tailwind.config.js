@@ -11,7 +11,9 @@ module.exports = {
         primaryGreen: '#1FCD64',
       },
       fontFamily: {
-        primary: ['Montserrat', 'sans-serif']
+        primary: ['Montserrat', 'sans-serif'],
+        landing: ['Cinzel', 'serif'],
+        cursived: ['Great Vibes','cursive'],
       }
     },
   },
