@@ -12,7 +12,7 @@ const CustomPizzaLandingSection = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{
           duration: 2,
-          ease: "backInOut",
+          ease: "backInOut", 
         }}
       >
         <img src={cheff} alt="" className='w-10/12 h-auto' />
